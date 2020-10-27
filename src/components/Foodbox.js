@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Foodbox = (props) => {
+const FoodBox = (props) => {
   return (
     <div className="box">
       <article className="media">
         <div className="media-left">
           <figure className="image is-64x64">
-            <img src={props.food.image} />
+            <img src={props.food.image} alt="foods" />
           </figure>
         </div>
         <div className="media-content">
@@ -32,4 +32,4 @@ const Foodbox = (props) => {
   );
 };
 
-export default Foodbox;
+export default FoodBox;
